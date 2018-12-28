@@ -1,0 +1,52 @@
+.navItem {
+    font-size: 100%;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .navbar {
+    padding: 0.1rem 1rem !important;
+    position: fixed !important;
+    z-index: 1000;
+    min-width: 100% !important;
+    box-shadow: 0px 0px 5px grey;
+  }
+  .navItem:hover {
+    color: yellow !important;
+  }
+  .site-logo {
+    color: #222222;
+    display: table;
+    text-align: left;
+    margin-left: 30px;
+    height: 70px;
+    position: relative;
+  }
+  .site-logo img {
+    max-height: 58px;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5)!important;
+    border-color: rgba(206, 199, 0, 0.1)!important;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#ffd11a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>")!important;
+  }
+  nav.bg-light {
+    background-color: #fbfbfb !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar-toggler {
+      margin-bottom: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .site-logo img {
+      margin-top: 0.7em;
+      max-height: 40px;
+    }
+    .navbar-toggler {
+      font-size: 1rem !important;
+      padding: 0.25rem 0.5rem !important;
+    }
+  }
+  
