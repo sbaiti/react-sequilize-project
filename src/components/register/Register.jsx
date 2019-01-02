@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../header/Header';
-//import Form from './Form';
+import FormR from './form/FormR';
 import Welcome from './welcome/Welcome';
 import './register.css';
 
@@ -19,6 +19,7 @@ class Register extends React.Component {
             <div className="register">
                 <Header />
                 <Welcome />
+                <FormR />
             </div>
         )
     }

@@ -1,5 +1,8 @@
-.welcome{
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
+.box {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 80px;
+  font-weight:900; 
+  }
+  
