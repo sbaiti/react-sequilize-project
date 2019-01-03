@@ -1,0 +1,12 @@
+.users{
+    display: flex;
+    flex-direction: column;
+}
+
+.table__users{
+    margin-top: 120px !important;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 238, 255);
+    padding: 10px;
+}
