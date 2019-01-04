@@ -21,4 +21,11 @@ module.exports = function (app) {
         User.findAll().then(users => res.json(users));
 
     });
+
+
+    app.get('/search', (req, res) => {
+        console.log('req*********************************', req);
+        User.findOne().then(user => res.json(user))
+    });
+
 }
