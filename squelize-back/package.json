@@ -1,0 +1,18 @@
+{
+  "name": "sequelize-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app",
+  "scripts": {
+    "test": "\u001b[A\u001b[B\u001b[A\u001b[C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D.kjs\u001b[D\u001b[\u001b[B\u001b[A\u001b[\u001b[\u001b[C\u001b\u001b[C\u001b[C\u001b[js"
+  },
+  "author": "sbaiti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "save": "^2.3.3",
+    "sequelize": "^4.42.0",
+    "tedious": "^3.0.1"
+  }
+}
