@@ -4,9 +4,12 @@ let apiController = require('./apiControllers/api');
 let port = process.env.PORT || 8080
 let app = express();
 
-app.use(express.static('public'));
 
+app.use(bodyParser.urlencoded({
+    extended: true
+  }));
 app.use(bodyParser.json());
+
 app.use(function (req, res, next) {
     // Website you wish to allow to connect
     res.setHeader("Access-Control-Allow-Origin", "*");
