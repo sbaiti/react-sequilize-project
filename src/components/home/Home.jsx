@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../header/Header';
 import Welcome from '../register/welcome/Welcome';
+import SideBar from '../sidebar/SideBar';
 import './home.css';
 
 class Home extends React.Component {
@@ -10,7 +11,7 @@ class Home extends React.Component {
 
                 <Header />
                 <Welcome />
-
+                <SideBar />
             </div>
         );
     }
